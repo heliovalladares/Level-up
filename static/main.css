@@ -32,8 +32,8 @@ body {
 
 .chat_window {
 	border-radius: 50px;
-	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-	background-color: #363636;
+	box-shadow: 0 10px 20px rgba(255, 255, 255, .2);
+	background-color: transparent;
 	overflow: hidden;
 }
 
@@ -152,7 +152,7 @@ body {
 /* text inpur from user */
 
 .bottom_wrapper {
-	background-color: #363636;
+	background-color: transparent;
 	padding: 20px;
 	bottom: 0;
 	display: flex;
@@ -213,10 +213,10 @@ body {
 }
 
 footer {
-  background-color: #000000; /* Fundo preto */
-  color: #ffffff; /* Letras brancas */
+  background-color: #000000; 
+  color: #ffffff; 
   text-align: center;
   padding: 20px;
-  font-size: 20px; /* Tamanho do texto (se preferir algo diferente de 0) */
+  font-size: 20px; 
 }
 
